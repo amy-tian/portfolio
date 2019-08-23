@@ -24,21 +24,8 @@
 </div>
 </header>
 
-<!--<div class="inlineheader2">
-    <h3>
-    Amy is a   </h3>
-
-    <div class="animated-text">
-      <div class = "line"> STUDENT </div>
-      <div class = "line"> ARTIST </div>
-      <div class = "line"> EARTH LOVER </div>
-      <div class = "line"> LEARNER </div>
-    </div>
-</div>
--->
 
 <img src="./img/about1.png">
-
 
 <div class = "container-intro">
   <h4>
