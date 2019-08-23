@@ -163,20 +163,28 @@ img[src*= "about1.png"] {
 .container-awards h4 {
   float: right;
   font-family: 'Oswald', sans-serif;
-  background-color: gray;
   font-size: 30px;
   height: 40px;
+  margin-right: 470px;
+  margin-top: 60px;
+  margin-bottom: 15px;
   width: 100px;
 }
 
 .container-awards p {
   float: right;
+  margin-top: 0px;
   margin-right: 70px;
   font-family: 'Montserrat', sans-serif;
-  background-color: gray;
   font-size: 15px;
-  height: 600px;
+  height: 450px;
   width: 500px;
+  line-height: 1.6;
 }
 
 .clear { clear:both; }
+
+
+footer p {
+  bottom: 0px;
+}
