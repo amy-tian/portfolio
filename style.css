@@ -185,8 +185,6 @@ img[src*= "about1.png"] {
   line-height: 1.6;
 }
 
-.clear { clear:both; }
-
 
 footer {
   clear: both;
@@ -199,4 +197,15 @@ footer {
   width: 100%;
   background-color: #E95C01;
 
+}
+
+
+img[src*= "about2.png"] {
+    height: auto;
+    width: auto;
+    max-width: 620px;
+    max-height: 620px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 150px;
 }
