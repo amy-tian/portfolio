@@ -1,13 +1,16 @@
 body {
   margin-top: 20px;
-  overflow-y: scroll;
+
+  min-height: 210vh;
+  position: relative;
 }
+
 
 header h1 {font-family: 'Oswald', sans-serif;
     font-size: 38px;
     margin: 0;
     float: left;
-    color: #2D2D2D;
+    color: #2D2D2D;  /* Footer height */
   }
 
 .container {
@@ -53,14 +56,14 @@ font-family: 'Oswald', sans-serif;
 }
 
 nav a:hover {
-  color: #E95C01;
+  color: #E95C01; /* orange */
 }
 
 nav a::before {
   content: '';
   display: block;
   height: 4px;
-  background-color: #E95C01;
+  background-color: #E95C01; /* orange */
 
   position: absolute;
   top: 17;
@@ -177,7 +180,7 @@ img[src*= "about1.png"] {
   margin-right: 70px;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  height: 450px;
+  height: 500px;
   width: 500px;
   line-height: 1.6;
 }
@@ -185,6 +188,15 @@ img[src*= "about1.png"] {
 .clear { clear:both; }
 
 
-footer p {
-  bottom: 0px;
+footer {
+  clear: both;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color:  white;      /* light gray */
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #E95C01;
+
 }
